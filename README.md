@@ -7,9 +7,11 @@ For input instructions, you use a basis set file in an ORCA or MOLPRO format for
 Make sure that you place the three files, the autoCABS generation script, the my_functions.py with the function definitions, and the orbital basis set file (either in an Orca or Molpro format) in a single folder.
 
 Then to generate an autoCABS for n = D, simply type
+
 python3 AutoCABS-generation-geom_mean_tight_extended_2p_and_diffuse_plus_two_layers.py
 
 To generate an autoCABS from a larger orbital basis set with a cardinal number n larger than D,
+
 python3 AutoCABS-generation-geom_mean_tight_and_diffuse_plus_single_layer.py
 
 The autoCABS is exported in four different formats, MOLPRO, ORCA, TURBOMOLE, and Psi4.
