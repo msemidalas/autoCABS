@@ -21,7 +21,6 @@ The autoCABS is exported in four different formats, MOLPRO, ORCA, TURBOMOLE, and
 
 To generate autoCABS for multiple elements, repeat the above steps for each element. A simple bash script is provided to assist in combining the generated autoCABS files into a single file.
 
-Feel free to contribute, provide feedback, or report issues.
 
 Emmanouil Semidalas
 
