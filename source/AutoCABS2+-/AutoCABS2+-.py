@@ -134,7 +134,7 @@ def process_primitives(with_contraction_coeff_1, with_contraction_coeff_not_1):
     else:
         outermost_decontracted = np.setdiff1d(with_contraction_coeff_not_1.flatten(), with_contraction_coeff_1.flatten())
         if outermost_decontracted.size != 0:
-            return concatenate_and_short(with_contraction_coeff_1_np.flat, outermost_decontracted[0,].flat, kind='mergesort')
+            return concatenate_and_short(with_contraction_coeff_1.flat, outermost_decontracted[0,].flat, kind='mergesort')
         else:
             return with_contraction_coeff_1
 
